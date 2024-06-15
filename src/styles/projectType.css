@@ -1,0 +1,92 @@
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-type-form {
+    width: 100%; /* Ensure form takes full width */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .type-options {
+    display: flex;
+    justify-content: center; /* Center align items horizontally */
+    margin-top: 10px;
+    padding-bottom: 20px;
+    width: 100%; /* Ensure full width */
+  }
+  
+  .type-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0; /* Remove margin between options */
+    cursor: pointer;
+  }
+  
+  .option-text {
+    font-size: 0.8rem; /* Smaller font size */
+  }
+  
+  .type-option.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .type-option input {
+    display: none;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .next-button {
+    width: auto; /* Ensure button width adjusts */
+  }
+  
+  .back-button {
+    width: auto; /* Ensure button width adjusts */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .view-description {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+  }
